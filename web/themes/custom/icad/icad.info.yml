@@ -1,0 +1,16 @@
+name: icad
+type: theme
+description: 'A custom theme for icad.'
+core: 8.x
+package: custom
+libraries:
+  - icad/global-styling
+  - icad/global-scripts
+engine: twig
+base theme: classy
+regions:
+  headline: headline
+  header: header
+  content: content
+  sidebar: sidebar
+  footer: Footer
